@@ -1,2 +1,10 @@
-Mean_deviation = [1, 3, 4, 5, 6, 7, 8]
-
+_list = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+x_bar_list = []
+def xbar(_list):
+        sum_ = sum(_list)
+        mean = (sum_) / len(_list)
+        for number in _list:
+                dev = number - mean
+                x_bar_list.append(dev)
+        return
+xbar(_list)
