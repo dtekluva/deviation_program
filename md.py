@@ -18,4 +18,8 @@ def mean_dev(distribution):
 
     return {"mean_dev": dev, "original_list": distribution, "xbar": xbar}
 
-print(mean_dev(_list))
+# print(mean_dev(_list))
+
+deviation = mean_dev(_list)
+print(deviation)
+
