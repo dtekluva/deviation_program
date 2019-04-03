@@ -6,5 +6,4 @@ def xbar(_list):
         for number in _list:
                 dev = number - mean
                 x_bar_list.append(dev)
-        return
-xbar(_list)
+        return x_bar_list
