@@ -7,3 +7,4 @@ def xbar(_list):
                 dev = number - mean
                 x_bar_list.append(dev)
         return x_bar_list
+xbar(_list)
